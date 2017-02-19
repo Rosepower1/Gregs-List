@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+
+/************END OF CSS RESET****************/
+
+body {
+	font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+/*********NAV BAR*********************/
+
+nav {
+	padding: 15px;
+	height:40px;
+	background-color:lightgray;
+
+}
+
+nav h2 {
+	display:inline-block;
+	text-align:left;
+	font-size:22px;
+	margin-top:10px;
+	
+}
+
+nav ul{
+	display: inline-block;
+	float:right;
+	margin-top:10px;
+
+
+}
+
+nav li {
+	display:inline-block;
+	text-align:right;
+}
+
+a {
+     color:black;
+	text-decoration:none;
+}
+
+ nav li a {
+	display:block;
+	text-decoration:none;
+	color:purple;
+	padding: 0 8px;
+	font-size:22px;
+}
+
+/********************FORM***********************/
+
+main {
+	margin-left:140px;
+	width:900px;
+}
+
+fieldset {
+	margin-top:30px;
+}
+
+label {
+	display: block;
+	padding-bottom:6px;
+	padding-left:7px;
+
+}
+
+input {
+	display:inline-block;
+}
+
+input[type="search"] {
+	width: 500px;
+	height:41px;
+	padding:8px;
+	font: normal 20px Helvetica, Arial, sans-serif;
+	border-radius:5px;
+	border:1px solid lightgray;
+	box-sizing:border-box;
+}
+
+img {
+	height:40px;
+	width:40px;
+	display: inline-block;
+	border:1px solid lightgray;
+	border-radius: 5px;
+	box-sizing:border-box;
+	vertical-align: -13px;
+}
+
+table {
+	border:1px solid lightgray;
+	border-collapse:collapse;
+	margin-top:30px;
+	margin-bottom:50px;
+
+}
+
+
+
+td {
+	border:1px solid lightgray;
+	padding:10px 30px;
+
+}
+
+td.prev_last{
+	padding:10px 20px;
+}
+
+span {
+	padding: 0 4px;
+}
+
+p {
+	display: inline-block;
+	color: gray;
+	font-weight:600;
+}
+
+p.job_title {
+	padding:0 10px;
+	font-weight:700;
+}
+
+p a {
+	color:blue;
+	text-decoration: none;
+	font-size:20px;
+}
+
+section {
+	margin-bottom:15px;
+}
